@@ -8,4 +8,4 @@ for (const state of fs.readdirSync(root)) {
   if (!fs.statSync(dir).isDirectory()) continue
   manifest[state] = fs.readdirSync(dir).filter(f => f.endsWith('.webp'))
 }
-fs.writeFileSync('./manifest.json', JSON.stringify(manifest, null, 2))
+fs.writeFileSync(`${root}/manifest.json`, JSON.stringify(manifest, null, 2))
