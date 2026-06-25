@@ -92,7 +92,7 @@ const run = async () => {
         ...rows.map((r) => r.join(",")),
     ].join("\n");
 
-    fs.writeFileSync("usa_plates.csv", csv);
+    fs.writeFileSync("./usa_plates.csv", csv);
 };
 
 run();
