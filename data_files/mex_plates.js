@@ -7,8 +7,45 @@ const START = `${BASE}/am/260-mex`;
 
 const normalizeTitle = (str) => (str || "").trim().replace(/\s+/g, "_");
 
+const isoMap = {
+    AGS: "AGU",
+    BC: "BCN",
+    BCS: "BCS",
+    CAMP: "CAM",
+    CHIH: "CHH",
+    CHIS: "CHP",
+    COAH: "COA",
+    COL: "COL",
+    DF: "CMX",
+    DGO: "DUR",
+    FEDERAL: "FED",
+    GRO: "GRO",
+    GTO: "GUA",
+    HGO: "HID",
+    JAL: "JAL",
+    MEX: "MEX",
+    MICH: "MIC",
+    MOR: "MOR",
+    NAY: "NAY",
+    NL: "NLE",
+    OAX: "OAX",
+    PUE: "PUE",
+    QR: "ROO",
+    QRO: "QUE",
+    SIN: "SIN",
+    SLP: "SLP",
+    SON: "SON",
+    TAB: "TAB",
+    TAMPS: "TAM",
+    TLAX: "TLA",
+    VER: "VER",
+    YUC: "YUC",
+    ZAC: "ZAC",
+};
+
 const getStateCode = (text) => {
-    const code = text.split("_").pop();
+    const raw = text.split("_").pop();
+    const code = isoMap[raw] || raw;
     return `MEX_${code}`;
 };
 
