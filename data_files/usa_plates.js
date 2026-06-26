@@ -4,6 +4,7 @@ const cheerio = require("cheerio");
 
 const BASE = "https://francoplaque.fr";
 const START = `${BASE}/12-usa`;
+const HAWAII = `${BASE}/pa/367-hi`;
 
 const normalizeTitle = (str) => (str || "").trim().replace(/\s+/g, "_");
 
@@ -44,19 +45,29 @@ const run = async () => {
         });
     });
 
+    states.push({
+        url: HAWAII,
+        state: "USA_HI",
+        isDirect: true,
+    });
+
     for (const state of states) {
         const $p = await fetchHTML(state.url);
         if (!$p) continue;
 
-        const categories = [];
+        let categories = [];
 
-        $p(".grid-item").each((_, el) => {
-            const link = $p(el).find("a[href]").attr("href");
+        if (state.isDirect) {
+            categories = [state.url];
+        } else {
+            $p(".grid-item").each((_, el) => {
+                const link = $p(el).find("a[href]").attr("href");
 
-            if (!link || !/^\/usa\/[a-z]{2}\/\d+/.test(link)) return;
+                if (!link || !/^\/usa\/[a-z]{2}\/\d+/.test(link)) return;
 
-            categories.push(absolute(link));
-        });
+                categories.push(absolute(link));
+            });
+        }
 
         for (const categoryUrl of categories) {
             const $c = await fetchHTML(categoryUrl);
@@ -92,7 +103,7 @@ const run = async () => {
         ...rows.map((r) => r.join(",")),
     ].join("\n");
 
-    fs.writeFileSync("./usa_plates.csv", csv);
+    fs.writeFileSync("usa_plates.csv", csv);
 };
 
 run();
