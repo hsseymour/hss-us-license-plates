@@ -2621,7 +2621,7 @@
     ]
   },
   "MEX": {
-    "MEX_AGS": [
+    "MEX_AGU": [
       "ags_2011_bus_a012870.webp",
       "ags_2011_pass_aeg6254.webp",
       "ags_2011_pass_afn4593.webp",
@@ -2648,7 +2648,7 @@
       "mex_ags_2005_truck_ad48194_sd_eu155.webp",
       "mex_ags_2011_pass_jm_eu161.webp"
     ],
-    "MEX_BC": [
+    "MEX_BCN": [
       "mex_1934_eb_jpg.webp",
       "mex_1949bajacalifornia2_eb_jpg.webp",
       "mex_1949bajacalifornia_eb_jpg.webp",
@@ -2681,12 +2681,12 @@
       "mex_1993mcbcs_eb_jpg.webp",
       "mex_1996_baja_calif_sur_mc_eb_jpg.webp"
     ],
-    "MEX_CAMP": [
+    "MEX_CAM": [
       "mex_1976taxi_eb_jpg.webp",
       "mex_1990mc_eb_jpg.webp",
       "mex_camp_1980_pass_dsa000_c_jfox_eu154_jpg.webp"
     ],
-    "MEX_CHIH": [
+    "MEX_CHH": [
       "chih_2012_front_sck7928.webp",
       "chih_2012_front_truck_zub8044.webp",
       "chih_2012_hc_he545.webp",
@@ -2729,14 +2729,34 @@
       "mex_chih_norm_eu132.webp",
       "mex_front_chih_76_77_jg_jpg.webp"
     ],
-    "MEX_CHIS": [
+    "MEX_CHP": [
       "mex_chis_1954ch_eb_jpg.webp",
       "mex_chis_1980_pass_djf830_c_jfox_eu154_jpg.webp",
       "mex_chis_1992_pass_dll4903_dw_59475_eu149_jpg.webp",
       "mex_chis_eb_jpg.webp",
       "mex_chi_1962_ll_jpg.webp"
     ],
-    "MEX_COAH": [
+    "MEX_CMX": [
+      "1_hnb_jpg.webp",
+      "mex_1936_df_eb_jpg.webp",
+      "mex_1936_pass_df_011651_ccd_eu151_jpg.webp",
+      "mex_1936_pass_df_eu151_jpg.webp",
+      "mex_1947_df_eb_jpg.webp",
+      "mex_1972trlr_eb_jpg.webp",
+      "mex_1972_vb_jpg.webp",
+      "mex_1974mcdf_eb_jpg.webp",
+      "mex_1986_distrito_feder_eb_jpg.webp",
+      "mex_855_vm_jpg.webp",
+      "mex_857_vm_jpg.webp",
+      "mex_859_vm_jpg.webp",
+      "mex_df_1969_ll_jpg.webp",
+      "mex_df_1992_pass_fds461_dw_eu149_jpg.webp",
+      "mex_df_diplom_1953_jpg.webp",
+      "mex_df_police_vm_jpg.webp",
+      "mex_df_run_1924_77_jpg.webp",
+      "mex_df_vm_jpg.webp"
+    ],
+    "MEX_COA": [
       "coah_2010_hc_cx820.webp",
       "coah_2010_taxi_cua5624.webp",
       "coah_2013_com_zrv0000.webp",
@@ -2781,27 +2801,7 @@
       "mex_col_84_85_jg_jpg.webp",
       "mex_col_police1.webp"
     ],
-    "MEX_DF": [
-      "1_hnb_jpg.webp",
-      "mex_1936_df_eb_jpg.webp",
-      "mex_1936_pass_df_011651_ccd_eu151_jpg.webp",
-      "mex_1936_pass_df_eu151_jpg.webp",
-      "mex_1947_df_eb_jpg.webp",
-      "mex_1972trlr_eb_jpg.webp",
-      "mex_1972_vb_jpg.webp",
-      "mex_1974mcdf_eb_jpg.webp",
-      "mex_1986_distrito_feder_eb_jpg.webp",
-      "mex_855_vm_jpg.webp",
-      "mex_857_vm_jpg.webp",
-      "mex_859_vm_jpg.webp",
-      "mex_df_1969_ll_jpg.webp",
-      "mex_df_1992_pass_fds461_dw_eu149_jpg.webp",
-      "mex_df_diplom_1953_jpg.webp",
-      "mex_df_police_vm_jpg.webp",
-      "mex_df_run_1924_77_jpg.webp",
-      "mex_df_vm_jpg.webp"
-    ],
-    "MEX_DGO": [
+    "MEX_DUR": [
       "dgo_2009_hc_eh041.webp",
       "dgo_2009_pass_gak9941.webp",
       "dgo_2009_pass_gbb7023.webp",
@@ -2825,7 +2825,7 @@
       "mex_dgo_2017_taxi_a302dyf_www_abg.webp",
       "mex_durango_1935_jpg.webp"
     ],
-    "MEX_FEDERAL": [
+    "MEX_FED": [
       "mex_1940_diplom_eb_jpg.webp",
       "mex_1942_dealer_jpg.webp",
       "mex_1958serviziopublicofederal_eb_jpg.webp",
@@ -2923,7 +2923,7 @@
       "mex_gro_2012_pass_jm_eu161.webp",
       "mex_gro_2017_pass_hab410a_www_abg.webp"
     ],
-    "MEX_GTO": [
+    "MEX_GUA": [
       "gto_2009_bus_d743960.webp",
       "gto_2009_trailer_fz35667.webp",
       "gto_2016_pass_gvu6532_www_jmi_155094_180.webp",
@@ -2949,7 +2949,7 @@
       "mex_gto_ambulance.webp",
       "mex_gto_vm_jpg.webp"
     ],
-    "MEX_HGO": [
+    "MEX_HID": [
       "hgo_2006_ambulance_376.webp",
       "hgo_2006_trailer_gv23087.webp",
       "hgo_2006_truck_hr82001.webp",
@@ -3028,7 +3028,7 @@
       "mex_911_vm_jpg.webp",
       "mex_919_vm_jpg.webp"
     ],
-    "MEX_MICH": [
+    "MEX_MIC": [
       "mex_1948poderejecutivo_eb_jpg.webp",
       "mex_1956_57michoacan_eb_jpg.webp",
       "mex_1978privatetrlr_eb_jpg.webp",
@@ -3121,7 +3121,7 @@
       "nay_2019_mc_xxw87.webp",
       "nay_2019_pass_rgm9071.webp"
     ],
-    "MEX_NL": [
+    "MEX_NLE": [
       "mex_1929_nuevoleon_2210_jpg.webp",
       "mex_1929_nuevoleon_eb_jpg.webp",
       "mex_1929_nuovo_leon_eb_jpg.webp",
@@ -3172,21 +3172,7 @@
       "pue_2011_truck_sj73013.webp",
       "pue_2014_pass_ubg1212.webp"
     ],
-    "MEX_QR": [
-      "mex_025_vm_jpg.webp",
-      "mex_027_vm_jpg.webp",
-      "mex_029_vm_jpg.webp",
-      "mex_031_vm_jpg.webp",
-      "mex_033_vm_jpg.webp",
-      "mex_035_vm_jpg.webp",
-      "mex_1960_eb_jpg.webp",
-      "mex_1977_mc_eb_jpg.webp",
-      "mex_1985quint_r_hand_vehic_je_jpg.webp",
-      "mex_1993mcqr_eb_jpg.webp",
-      "mex_1993mc_eb_jpg.webp",
-      "mex_1996mc_eb_jpg.webp"
-    ],
-    "MEX_QRO": [
+    "MEX_QUE": [
       "mex_017_vm_jpg.webp",
       "mex_019_vm_jpg.webp",
       "mex_021_vm_jpg.webp",
@@ -3216,6 +3202,20 @@
       "qro_2016_mc_emj.webp",
       "qro_2017_pass_ukh.webp",
       "qro_2017_pass_uks.webp"
+    ],
+    "MEX_ROO": [
+      "mex_025_vm_jpg.webp",
+      "mex_027_vm_jpg.webp",
+      "mex_029_vm_jpg.webp",
+      "mex_031_vm_jpg.webp",
+      "mex_033_vm_jpg.webp",
+      "mex_035_vm_jpg.webp",
+      "mex_1960_eb_jpg.webp",
+      "mex_1977_mc_eb_jpg.webp",
+      "mex_1985quint_r_hand_vehic_je_jpg.webp",
+      "mex_1993mcqr_eb_jpg.webp",
+      "mex_1993mc_eb_jpg.webp",
+      "mex_1996mc_eb_jpg.webp"
     ],
     "MEX_SIN": [
       "mex_039_vm_jpg.webp",
@@ -3337,7 +3337,7 @@
       "tab_2017_truck_vm48497.webp",
       "tab_2017_truck_vm50991.webp"
     ],
-    "MEX_TAMPS": [
+    "MEX_TAM": [
       "mex_071_vm_jpg.webp",
       "mex_073_vm_jpg.webp",
       "mex_075_vm_jpg.webp",
@@ -3371,7 +3371,7 @@
       "tamp_2016_truck_wm95813.webp",
       "tamp_2016_truck_wn63801.webp"
     ],
-    "MEX_TLAX": [
+    "MEX_TLA": [
       "mex_081_vm_jpg.webp",
       "mex_083_vm_jpg.webp",
       "mex_085_vm_jpg.webp",
