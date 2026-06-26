@@ -43,10 +43,10 @@ async function processFile(fileConfig) {
                     const stateRaw = row.state || "unknown";
                     const plateRaw = row.plate_title || row.plate_img || "plate";
 
-                    const state = clean(stateRaw.replace(/^.*?_/, "")); // remove prefix like USA_
+                    const state = clean(stateRaw.replace(/^.*?_/, "")).toUpperCase();
                     const plateName = clean(plateRaw);
 
-                    const dir = path.join(OUTPUT_ROOT, fileConfig.country, state);
+                    const dir = path.join(OUTPUT_ROOT, fileConfig.country.toUpperCase(), state);
                     await fs.ensureDir(dir);
 
                     const outputPath = path.join(dir, `${plateName}.webp`);
