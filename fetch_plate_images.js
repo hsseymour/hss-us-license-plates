@@ -46,7 +46,9 @@ async function processFile(fileConfig) {
                     const state = clean(stateRaw.replace(/^.*?_/, "")).toUpperCase();
                     const plateName = clean(plateRaw);
 
-                    const dir = path.join(OUTPUT_ROOT, fileConfig.country.toUpperCase(), state);
+                    const country = fileConfig.country.toUpperCase();
+
+                    const dir = path.join(OUTPUT_ROOT, country, `${country}_${state}`);
                     await fs.ensureDir(dir);
 
                     const outputPath = path.join(dir, `${plateName}.webp`);
